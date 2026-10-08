@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Game console illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#86efac"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#374151"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+
+  <g transform="translate(180,120)">
+    <rect x="0" y="0" width="920" height="480" rx="26" fill="url(#shell)"/>
+    <rect x="80" y="72" width="760" height="260" rx="18" fill="#0f172a" stroke="#4ade80" stroke-width="5"/>
+    <rect x="110" y="102" width="700" height="200" rx="12" fill="url(#screen)" opacity="0.95"/>
+
+    <g opacity="0.28">
+      <circle cx="150" cy="160" r="26" fill="#f8fafc"/>
+      <rect x="220" y="120" width="160" height="20" rx="10" fill="#f8fafc"/>
+      <rect x="220" y="160" width="190" height="18" rx="9" fill="#f8fafc"/>
+      <rect x="220" y="195" width="120" height="18" rx="9" fill="#f8fafc"/>
+      <rect x="470" y="130" width="120" height="18" rx="9" fill="#f8fafc"/>
+      <rect x="470" y="170" width="200" height="18" rx="9" fill="#f8fafc"/>
+      <rect x="470" y="210" width="150" height="18" rx="9" fill="#f8fafc"/>
+    </g>
+
+    <g>
+      <circle cx="230" cy="390" r="40" fill="#d1d5db"/>
+      <circle cx="530" cy="390" r="40" fill="#d1d5db"/>
+      <circle cx="690" cy="390" r="40" fill="#d1d5db"/>
+      <circle cx="830" cy="390" r="40" fill="#d1d5db"/>
+      <rect x="135" y="332" width="190" height="110" rx="28" fill="#d1d5db" opacity="0.95"/>
+      <rect x="435" y="332" width="190" height="110" rx="28" fill="#d1d5db" opacity="0.95"/>
+      <rect x="610" y="332" width="190" height="110" rx="28" fill="#d1d5db" opacity="0.95"/>
+      <rect x="785" y="332" width="110" height="110" rx="28" fill="#d1d5db" opacity="0.95"/>
+      <text x="230" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">A</text>
+      <text x="530" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">B</text>
+      <text x="690" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">C</text>
+      <text x="830" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">D</text>
+    </g>
+  </g>
+</svg>
