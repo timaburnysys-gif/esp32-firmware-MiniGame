@@ -16,3 +16,5 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 #define PIN_BACK 40
 
 it you need flash in aruino ide or platformio
+
+![Game Console Screenshot](./minigame.jpg)
