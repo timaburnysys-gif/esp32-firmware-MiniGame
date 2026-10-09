@@ -18,3 +18,15 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 it you need flash in aruino ide or platformio
 
 ![Game Console Screenshot](./minigame.jpg)
+
+ IT HAVE
+ Doom
+ 3d FPS TEST
+ Monster hunt
+ Bot duel 3d
+ Upload bin games
+ screenshots
+ videos
+ an more!
+ Tutorial
+ To get started, download the ZIP file and extract it; you'll find another ZIP file inside—that’s the one you need! Extract that one as well to locate `minigame.ino`. Open the file in the Arduino IDE or PlatformIO, configure the PSRAM settings based on your specific ESP32 board, and set up the I2C display. Then, go to `pins.h` to configure the button and display pins. Finally, compile and upload the code—good luck with the game!
