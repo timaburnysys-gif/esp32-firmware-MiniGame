@@ -63,7 +63,9 @@ minigame/
 
 5. Open `minigame.ino` in Arduino IDE. The other files load as tabs automatically.
 
-## 🔧 Arduino IDE Setup
+## 🔧 Arduino IDE Setup| esp32s3-have 8mb psram | esp32-s2-wrower - it have 2mb psram You can use anybody board but you need psram or set off video
+
+
 
 1. Install the board package: **Boards Manager → esp32 (Espressif Systems)**.
 2. Install libraries via **Library Manager**:
@@ -133,10 +135,13 @@ Edit `custom.cpp`. Keep the four names `CUSTOM_GAME_NAME`, `customReset`, `custo
 
 ##🛠️Recommendation boards
 
-| esp32s3-have 8mb psram
-| esp32-s2-wrower - it have 2mb psram
- You can use anybody board but you need psram or set off video
+| Device | Psram |
+|---|---|
+| esp32s3 | 8mb |
+| esp32s2-wrower | 2mb |
 
 
 
-|
+
+
+
