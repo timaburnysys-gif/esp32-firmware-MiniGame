@@ -131,6 +131,12 @@ Edit `custom.cpp`. Keep the four names `CUSTOM_GAME_NAME`, `customReset`, `custo
 | Screen stays dark | check SDA/SCL wiring and address `0x3C` |
 | Device keeps going to sleep | battery monitor on without a divider: hold **BACK** at power-up |
 
-## 📄 License
+##🛠️Recommendation boards
 
-MIT. Add a `LICENSE` file to your repository.
+| esp32s3-have 8mb psram
+| esp32-s2-wrower - it have 2mb psram
+ You can use anybody board but you need psram or set off video
+
+
+
+|
