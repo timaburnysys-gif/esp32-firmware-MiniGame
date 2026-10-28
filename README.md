@@ -56,21 +56,19 @@ minigame/
 ├── pins.h
 ├── pins.cpp
 ├── custom.cpp
-├── partitions.csv
-├── minigame.jpg
-└── README.md
+├── gyver_oled.cpp
+└── gyver_oled.h
 ```
 
 5. Open `minigame.ino` in Arduino IDE. The other files load as tabs automatically.
 
-## 🔧 Arduino IDE Setup| esp32s3-have 8mb psram | esp32-s2-wrower - it have 2mb psram You can use anybody board but you need psram or set off video
+## 🔧 Arduino IDE Setup🔧
 
 
 
 1. Install the board package: **Boards Manager → esp32 (Espressif Systems)**.
 2. Install libraries via **Library Manager**:
-   - `Adafruit SSD1306`
-   - `Adafruit GFX Library`
+   - `gyver oled`
 3. Select **ESP32S3 Dev Module** and set **Tools**:
 
 | Option | Value |
